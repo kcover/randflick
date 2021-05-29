@@ -1,22 +1,22 @@
 # randflick
 
-A Clojure library designed to ... well, that part is up to you.
+I often have trouble finding a movie to watch.
+I want to pick something good, so I often scout certain 
+rotten tomatoes websites that rank the best movies on various
+streaming services. Then I'll scroll through the page without 
+ever settling on something. My solution to my indecisiveness 
+was to let fate decide. 
+
+Randflick is a simple command line application that accepts the 
+name of a streaming service, scrapes a website for what rotten tomatoes
+considers the best movies for that service, and gives back a random
+movie title. 
+
+
+
 
 ## Usage
 
-FIXME
+Clone the repo and execute `lein run` in the root directory. 
+The accepted streaming services are hbo, netflix, hulu, and disney. 
 
-## License
-
-Copyright © 2021 FIXME
-
-This program and the accompanying materials are made available under the
-terms of the Eclipse Public License 2.0 which is available at
-http://www.eclipse.org/legal/epl-2.0.
-
-This Source Code may also be made available under the following Secondary
-Licenses when the conditions for such availability set forth in the Eclipse
-Public License, v. 2.0 are satisfied: GNU General Public License as published by
-the Free Software Foundation, either version 2 of the License, or (at your
-option) any later version, with the GNU Classpath Exception which is available
-at https://www.gnu.org/software/classpath/license.html.

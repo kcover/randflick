@@ -5,6 +5,7 @@
             :url "https://www.eclipse.org/legal/epl-2.0/"}
   :dependencies [[org.clojure/clojure "1.10.1"]
                  [clj-http "3.12.0"]
-                 [enlive "1.1.6"]]
+                 [enlive "1.1.6"]
+                 [ring "1.8.2"]]
   :repl-options {:init-ns randflick.core}
-  :main randflick.core/foo)
+  :main randflick.core/main)
